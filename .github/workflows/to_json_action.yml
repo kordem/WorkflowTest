@@ -25,7 +25,7 @@ jobs:
           # This controls where the JSON files are generated
           folder: "built-with-eleventy/"
           # This tells the action which GitHub Issue Form template file to use
-          issue-template: "built-with-eleventy.yml"
+          issue-template: "my-template.yml"
           # This controls which property we use to key the file name hash off of (values should be unique in your data set)
           hash-property-name: "url"
       - name: Commit files
