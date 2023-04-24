@@ -29,7 +29,8 @@ jobs:
           hash-property-name: "url"
       - name: Commit files
         run: |
-          echo "***** #${{ env }}"
+          echo "*****1 ${{ toJSON(env)) }}"
+          echo "*****2 ${{ toJSON(github)) }}"
       # - name: Close issue
       #   uses: peter-evans/close-issue@v1
       #   with:
